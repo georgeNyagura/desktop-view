@@ -1,0 +1,431 @@
+.mm{
+    width: 1438px;
+    height: 1867px;
+ }
+ a:link{
+     text-decoration: none;
+ }
+ .home-logo{
+    
+    position: relative;
+    padding-left: 100.09px;
+    width: 148px;
+    height: 16px;
+    padding-top: 34px;
+    /* UI Properties */
+    opacity: 1;
+    
+ }
+ .contact-section{
+     background-color: black;
+ }
+ .navi-pic{
+     width: 1440px;
+     height: 398px;
+     position: absolute;
+ }
+ .f1{
+     top: 1683px;
+     left: 185px;
+     width: 148px;
+     height: 16px;
+     /* UI Properties */
+     background: #FFFFFF 0% 0% no-repeat padding-box;
+     opacity: 1;
+ }
+ .nav{
+    background-image: url(../assets/hero-home.jpg);
+    width: 1438px;
+    height: 398px;
+    border-bottom: 4px solid white;   
+ }
+ .driveclub{
+     top: 36px;
+     padding-left: 120px;
+     width: 148px;
+     height: 16px;
+     flex-direction: row;
+     /* UI Properties */
+     background: #FFFFFF 0% 0% no-repeat padding-box;
+     opacity: 1;   
+ }
+ .home-button{
+    width: 48px;
+    height: 23px;
+    top: 34px;
+    padding-left: 955.3px;
+    width: 48px;
+    flex-direction: row;
+    height: 23px;
+    /* UI Properties */
+    color: var(--unnamed-color-ff0050);
+    text-align: center;
+    font: normal normal medium 16px/22px Poppins;
+    letter-spacing: 0.64px;
+    color: #ffffff;
+    opacity: 1;
+    text-transform: uppercase;
+    position: absolute;
+ }
+ .home-button:link{
+     color: #FF0050;
+ }
+ .contact-us{
+    top: 32px;
+    padding-left: 1027.3px;
+    width: 106px;
+    height: 23px;
+    flex-direction: row;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal 300 16px/22px Poppins;
+    letter-spacing: 0.64px;
+    color: #FFFFFF;
+    opacity: 0.87;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: absolute;
+ }
+ .goose{
+     top: 172px;
+     width: 714px;
+     height: 91px;
+     padding-top: 170px;
+     /* UI Properties */
+     text-align: left;
+     font: normal normal 800 80px/75px Proxima Nova;
+     letter-spacing: 1.6px;
+     color: #FFFFFF;
+     text-transform: uppercase;
+     opacity: 0.87;
+     font-size: 80px;
+ }
+ .come-standard{
+     top: 259px;
+     width: 400px;
+     height: 45px;
+     margin-top: 0%;
+     /* UI Properties */
+     text-align: left;
+     font: normal normal 800 40px/38px Proxima Nova;
+     letter-spacing: 1.6px;
+     color: #FFFFFF;
+     text-transform: uppercase;
+     opacity: 0.87;
+     font-size: 40px;
+ }
+ .discover{
+     top: 332px;
+     
+     width: 466px;
+     height: 45px;
+     /* UI Properties */
+     text-align: left;
+     font: normal normal 300 16px/22px Poppins;
+     letter-spacing: 0.32px;
+     color: #FFFFFF;
+     opacity: 0.6;
+ }
+ .nav-con{
+     top: 419px;
+     width: 156px;
+     height: 48px;
+ 
+     /* UI Properties */
+     border: 2px solid var(--unnamed-color-ff0050);
+     background: #FF00504D 0% 0% no-repeat padding-box;
+     border: 2px solid #FF0050;
+     opacity: 1;
+ }
+ .c-u{
+     padding-top: 28px;
+ }
+ .nav-container{
+     padding-left: 140px;
+     height: 295px;
+     width: 734px;
+     /* border-bottom: 5px solid red; */
+ }
+/* --------------form------------------------- */
+.form{
+    position: absolute;
+    height: 738px;
+    width: 588px;
+    margin-left: 732px;
+    margin-top: -50px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    background: #22282D 0% 0% no-repeat padding-box;
+}
+.help{
+    width: 370px;
+    height: 36px;
+    margin-left: 40px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 32px/38px Proxima Nova;
+    letter-spacing: 1.28px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 0.87;
+}
+#fname {
+    width: 507px;
+    height: 50px;
+    margin-left: 40px;
+    background: #22282D 0% 0% no-repeat padding-box;
+    border: 1px solid white;
+}
+#contact-number{
+    width: 507px;
+    height: 50px;
+    margin-top: 58px;
+    margin-left: 40px;
+    background: #22282D 0% 0% no-repeat padding-box;
+    border: 1px solid white;
+}
+#email{
+    width: 507px;
+    height: 50px;
+    margin-left: 40px;
+    margin-top: 38px;
+    background: #22282D 0% 0% no-repeat padding-box;
+    border: 1px solid white;
+}
+
+#how-help{
+    width: 507px;
+    height: 172px;
+    margin-left: 40px;
+    margin-top: 38px;
+    background: #22282D 0% 0% no-repeat padding-box;
+    border: 1px solid white;
+}
+.fname{
+    text-align: left;
+    font: normal normal medium 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-left: 40px;
+    opacity: 0.87;
+}
+.contact-number{
+    text-align: left;
+    font: normal normal medium 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-left: 40px;
+    opacity: 0.87;
+}
+.email{
+    text-align: left;
+    font: normal normal medium 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 0.87;
+    margin-left: 40px;
+}
+.how-help{
+    text-align: left;
+    font: normal normal medium 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 0.87;
+    padding-top: 36px;
+    margin-left: 40px;
+}
+.submit-button{
+    border: 2px solid var(--unnamed-color-ff0050);
+    background: #FF00504D 0% 0% no-repeat padding-box;
+    border: 2px solid #FF0050;
+    opacity: 1;
+    color: #FFFFFF;
+    margin-left: 40px;
+    margin-top: 58px;
+    float: left;
+}
+
+/* ----------------details----------------------- */
+
+.details{
+    padding-left: 140px;
+    width: 264px;
+    height: 228px;
+    /* UI Properties */
+    opacity: 1;
+}
+.d-e{
+    padding-top: 100px;
+    width: 274px;
+    height: 48px;
+    /* UI Properties */
+    float: left;
+}
+.d-e-1{
+    width: 274px;
+    height: 48px;
+    /* UI Properties */
+    float: left;
+    padding-top: 48px;
+}
+.d-e-2{
+    width: 274px;
+    height: 48px;
+    /* UI Properties */
+    float: left;
+    padding-top: 48px;
+}
+.icon{
+    width: 48px;
+    height: 48px;
+    /* UI Properties */
+    border: 2px solid var(--unnamed-color-ff0050);
+    background: #FF00504D 0% 0% no-repeat padding-box;
+    border: 2px solid #FF0050;
+    opacity: 1;
+    float: left;
+}
+.phone{
+    padding-left: 75px;
+    color: #FFFFFF;
+    padding-top: 4px;
+}
+/* --------------------------------------- */
+/* --------------------------------------- */
+.c1{
+    width: 1442px;
+    height: 430px;
+    /* UI Properties */
+    background: var(--grey-1000-elevation-) 0% 0% no-repeat padding-box;
+    background: #22282D 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-top: 1px solid white;
+}
+/* ------------------------------------------- */
+/* CONTACT SECTION */
+.contact-section{
+    top: 1603px;
+    left: -2px;
+    width: 1442px;
+    height: 264px;
+    /* UI Properties */
+    background: var(--grey-1000-elevation-) 0% 0% no-repeat padding-box;
+    background: #22282D 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-top: 1px solid white;
+}
+.cs-drive{
+    padding-left: 185.09px;
+    position: absolute;
+}
+.cs-models{
+    padding-left:899.09px;
+    position: absolute;
+    font-size: 16px;
+    top: 1683px;
+    width: 70px;
+    height: 23px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 600 16px/25px Poppins;
+    letter-spacing: 1.28px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.cs-more{
+    padding-left: 1103.09px;
+    position: absolute;
+    font-size: 16px;
+    top: 1683px;
+    width: 50px;
+    height: 23px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 600 16px/25px Poppins;
+    letter-spacing: 1.28px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.copy{
+    padding-left: 185.09px;
+    top: 1711px;
+    width: 229px;
+    height: 20px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 300 14px/21px Poppins;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+    opacity: 0.48;
+}
+.cs-la-ferrari{
+    padding-left:899.09px;
+    top: 1722px;
+    width: 100px;
+    height: 21px;
+    /* UI Properties */
+    color: var(--unnamed-color-ff0050);
+    text-align: left;
+    font: normal normal 300 15px/23px Poppins;
+    letter-spacing: 1.2px;
+    color: #FF0050;
+    opacity: 1;
+    margin: 0%;   
+}
+.cs-home{
+    padding-left: 1103.09px;
+    top: 1723px;
+    width: 43px;
+    height: 20px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 300 14px/21px Poppins;
+    letter-spacing: 1.12px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin: 0%;
+}
+.cs-model-s{
+    width: 100px;
+    padding-left: 899.09px;
+    height: 20px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 300 14px/21px Poppins;
+    letter-spacing: 1.12px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+.cs-contact-us{
+    top: 1747px;
+    padding-left: 1103.09px;
+    width: 100px;
+    height: 20px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 300 14px/21px Poppins;
+    letter-spacing: 1.12px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    position: absoluteng;
+}
+.logos{
+    padding-left: 184px;
+    padding-top: 40px;
+    position: absolute;
+}
+.m-logos{
+    padding-left: 20px;
+}
+.home-logos{
+    position: relative;
+    padding-left: 187px;
+    width: 148px;
+    height: 16px;
+    padding-top: 34px;
+    /* UI Properties */
+    opacity: 1;
+    
+ }

@@ -1,0 +1,73 @@
+.container{
+    display: flex;
+    width: 1440px;
+    height: 820px;
+}
+.container div{
+    height: 820px;
+    width: 1440px;
+}
+/* img{
+    /* float: left; 
+    height: 820px;
+} */
+.text{
+    /* padding-top: 100px; */
+    padding-left:80px;
+    margin-left: 1010px;
+    position: relative;
+    /* UI Properties */
+    opacity: 1;
+    background: #171B1E 0% 0% no-repeat padding-box;
+}
+.left-pic{
+    border-right: 1px solid white;
+    position: absolute;
+    height: 820px;
+    border-right: 0px;
+}
+.new-range{
+    padding-top:60px;
+    padding-left: 0;
+    width: 120px;
+    height: 21px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 18px/75px Proxima Nova;
+    letter-spacing: 0.72px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 0.6;
+    position: relative;
+}
+.la-ferrari{
+    padding-top: 21px;
+    width: 360px;
+    height: 64px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 800 56px/75px Proxima Nova;
+    letter-spacing: 1.12px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 0.87;
+}
+.massive-text{
+    width: 600px;
+    height: 500px;
+    color: #FFFFFF;
+    overflow: scroll;
+    font-size: 20px;
+    margin-right: 50px;
+    opacity: 0.6;
+}
+/* hide scrollbar but allow scrolling */
+.massive-text {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+}
+
+.massive-text::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
